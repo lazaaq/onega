@@ -1,0 +1,15 @@
+@each $name, $value in $max-width-dim{
+  .max-width-#{$name} {
+    max-width: $value !important;
+  }
+}
+
+@each $name, $value in $width-dim{
+  .width-#{$name} {
+    width: $value !important;
+  }
+}
+
+.main-content {
+  margin-left: 15.5 rem !important;
+}
